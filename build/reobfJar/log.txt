@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--in-jar, C:\Users\rwuer\OneDrive\Dokumente\BBB\Applikationsentwicklung\M306\build\libs\modid-1.0.jar, --out-jar, C:\Users\rwuer\OneDrive\Dokumente\BBB\Applikationsentwicklung\M306\build\reobfJar\output.jar, --srg-in, C:\Users\rwuer\OneDrive\Dokumente\BBB\Applikationsentwicklung\M306\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, C:\Project\M306_2\build\libs\modid-1.0.jar, --out-jar, C:\Project\M306_2\build\reobfJar\output.jar, --srg-in, C:\Project\M306_2\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\rwuer\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.10.0\SpecialSource-1.10.0-shaded.jar
  - C:\Users\rwuer\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.1.1_mapped_official_1.17.1\forge-1.17.1-37.1.1_mapped_official_1.17.1-recomp.jar
@@ -77,7 +77,7 @@ Classpath:
  - C:\Users\rwuer\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
  - C:\Users\rwuer\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
  - C:\Users\rwuer\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-Working directory: C:\Users\rwuer\OneDrive\Dokumente\BBB\Applikationsentwicklung\M306\build\reobfJar
+Working directory: C:\Project\M306_2\build\reobfJar
 Main class: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings
@@ -89,14 +89,14 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 6113 classes, 27728 fields, 50860 methods
 Remapping final jar
-Remapping jar...  6%
-Remapping jar... 12%
-Remapping jar... 24%
-Remapping jar... 35%
-Remapping jar... 41%
-Remapping jar... 53%
-Remapping jar... 65%
-Remapping jar... 71%
-Remapping jar... 82%
-Remapping jar... 94%
+Remapping jar...  8%
+Remapping jar... 17%
+Remapping jar... 25%
+Remapping jar... 33%
+Remapping jar... 42%
+Remapping jar... 50%
+Remapping jar... 67%
+Remapping jar... 75%
+Remapping jar... 83%
+Remapping jar... 92%
 Remapping jar... 100%
