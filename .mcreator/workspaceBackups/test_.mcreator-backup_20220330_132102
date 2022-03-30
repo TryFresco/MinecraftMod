@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Scoobysnacl",
-      "type": "food",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scoobysnacl"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.test_.scoobysnacl": "Scoobysnacl"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
