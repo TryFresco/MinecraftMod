@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="test_"
+version="1.0.0"
+displayName="test_306"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="rwuer, MCreator"
+
+[[dependencies.test_]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
