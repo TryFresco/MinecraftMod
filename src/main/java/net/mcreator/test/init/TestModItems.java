@@ -18,7 +18,7 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TestModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item SCOOBYSNACL = register(new ScoobysnaclItem());
+	public static final Item SCOOBYSNACK = register(new ScoobysnaclItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

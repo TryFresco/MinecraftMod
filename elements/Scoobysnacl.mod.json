@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "scoobysnack",
     "customModelName": "Normal",
-    "name": "Scoobysnacl",
+    "name": "Scoobysnack",
     "rarity": "COMMON",
     "specialInfo": [
       "scooby-dooby-doo"
@@ -14,9 +14,9 @@
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 4,
+    "nutritionalValue": 1,
     "saturation": 0.3,
-    "eatingSpeed": 32,
+    "eatingSpeed": 16,
     "resultItem": {
       "value": ""
     },

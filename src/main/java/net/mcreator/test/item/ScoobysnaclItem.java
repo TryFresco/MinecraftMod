@@ -19,10 +19,15 @@ import java.util.List;
 public class ScoobysnaclItem extends Item {
 	public ScoobysnaclItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
+				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f)
 
 						.build()));
-		setRegistryName("scoobysnacl");
+		setRegistryName("scoobysnack");
+	}
+
+	@Override
+	public int getUseDuration(ItemStack stack) {
+		return 16;
 	}
 
 	@Override
