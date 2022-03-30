@@ -1,0 +1,41 @@
+{
+  "mod_elements": [
+    {
+      "name": "Scoobysnacl",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoobysnack"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test_.scoobysnack": "Scoobysnack"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test_",
+    "modName": "test_306",
+    "version": "1.0.0",
+    "author": "rwuer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
