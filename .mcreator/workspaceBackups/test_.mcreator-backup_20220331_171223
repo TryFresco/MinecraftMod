@@ -1,9 +1,28 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BlackSquare",
+      "type": "item",
+      "sortid": 1,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "black_square"
+    },
+    {
+      "name": "Scoobysnacl",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoobysnack"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.test_.black_square": "Black Square"
+    }
   },
   "foldersRoot": {
     "name": "~",
