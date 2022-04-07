@@ -1,4 +1,7 @@
 {
-  "item.test_.scoobysnack": "Scoobysnack",
-  "item.test_.black_square": "Black Square"
+  "item.test_.black_square": "Black Square",
+  "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
+  "item.test_.hulk_armor_helmet": "Hulk Armor Helmet",
+  "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
+  "item.test_.hulk_armor_boots": "Hulk Armor Boots"
 }

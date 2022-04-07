@@ -4,7 +4,7 @@
       "name": "BlackSquare",
       "type": "item",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "black_square"
     },
@@ -15,31 +15,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "scoobysnack"
-    },
-    {
-      "name": "HulkArmor",
-      "type": "armor",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hulk_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test_.black_square": "Black Square",
-      "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
-      "item.test_.hulk_armor_helmet": "Hulk Armor Helmet",
-      "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
-      "item.test_.hulk_armor_boots": "Hulk Armor Boots"
+      "item.test_.black_square": "Black Square"
     }
   },
   "foldersRoot": {
