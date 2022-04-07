@@ -7,14 +7,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_square"
-    },
-    {
-      "name": "Scoobysnacl",
-      "type": "food",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scoobysnack"
     }
   ],
   "variable_elements": [],
