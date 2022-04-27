@@ -1,21 +1,10 @@
 
 package net.mcreator.test.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
 
 public abstract class HulkArmorItem extends ArmorItem {
+
 	public HulkArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -61,8 +50,10 @@ public abstract class HulkArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends HulkArmorItem {
+
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("hulk_armor_helmet");
 		}
 
@@ -70,11 +61,14 @@ public abstract class HulkArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "test_:textures/models/armor/hulk_test_layer_1.png";
 		}
+
 	}
 
 	public static class Chestplate extends HulkArmorItem {
+
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("hulk_armor_chestplate");
 		}
 
@@ -82,11 +76,14 @@ public abstract class HulkArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "test_:textures/models/armor/hulk_test_layer_1.png";
 		}
+
 	}
 
 	public static class Leggings extends HulkArmorItem {
+
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("hulk_armor_leggings");
 		}
 
@@ -94,11 +91,14 @@ public abstract class HulkArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "test_:textures/models/armor/hulk_test_layer_2.png";
 		}
+
 	}
 
 	public static class Boots extends HulkArmorItem {
+
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("hulk_armor_boots");
 		}
 
@@ -106,5 +106,7 @@ public abstract class HulkArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "test_:textures/models/armor/hulk_test_layer_1.png";
 		}
+
 	}
+
 }
