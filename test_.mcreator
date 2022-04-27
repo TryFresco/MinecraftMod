@@ -4,7 +4,7 @@
       "name": "BlackSquare",
       "type": "item",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "black_square"
     },
@@ -35,6 +35,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.test_.scoobysnack": "Scoobysnack",
       "item.test_.black_square": "Black Square",
       "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
       "item.test_.hulk_armor_helmet": "Hulk Armor Helmet",
