@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "hulk_head",
+    "textureHelmet": "hulk_helmet_icon",
     "enableBody": true,
-    "textureBody": "hulk_body",
+    "textureBody": "hulk_chestplate_icon",
     "enableLeggings": true,
-    "textureLeggings": "hulk_legs",
+    "textureLeggings": "hulk_leggings_icon",
     "enableBoots": true,
-    "textureBoots": "hulk_feet",
+    "textureBoots": "hulk_boots_icon",
     "onHelmetTick": {
       "name": "HulkArmorHelmetTickEvent"
     },

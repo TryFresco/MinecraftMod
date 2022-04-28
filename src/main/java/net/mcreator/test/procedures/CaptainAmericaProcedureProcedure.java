@@ -10,9 +10,9 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.mcreator.test.init.TestModItems;
 
 public class CaptainAmericaProcedureProcedure {
-	public static void execute(Entity entity) {
+	public static boolean execute(Entity entity) {
 		if (entity == null)
-			return;
+			return false;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
 				.getItem() == TestModItems.CAPTAIN_AMERICA_HELMET) {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
@@ -25,9 +25,18 @@ public class CaptainAmericaProcedureProcedure {
 							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 3));
 						if (entity instanceof LivingEntity _entity)
 							_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 2));
+					} else {
+						return false;
 					}
+				} else {
+					return false;
 				}
+			} else {
+				return false;
 			}
+		} else {
+			return false;
 		}
+		return false;
 	}
 }

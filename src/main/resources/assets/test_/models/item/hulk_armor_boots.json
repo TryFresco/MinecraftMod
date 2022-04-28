@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "test_:items/hulk_feet"
+    "layer0": "test_:items/hulk_boots_icon"
   }
 }
