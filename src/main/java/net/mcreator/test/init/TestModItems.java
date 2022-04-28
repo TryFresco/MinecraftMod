@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.test.item.ScoobysnaclItem;
+import net.mcreator.test.item.IronManItem;
 import net.mcreator.test.item.HulkArmorItem;
 import net.mcreator.test.item.CaptainAmericaItem;
 import net.mcreator.test.item.BlackSquareItem;
@@ -31,6 +32,10 @@ public class TestModItems {
 	public static final Item CAPTAIN_AMERICA_CHESTPLATE = register(new CaptainAmericaItem.Chestplate());
 	public static final Item CAPTAIN_AMERICA_LEGGINGS = register(new CaptainAmericaItem.Leggings());
 	public static final Item CAPTAIN_AMERICA_BOOTS = register(new CaptainAmericaItem.Boots());
+	public static final Item IRON_MAN_HELMET = register(new IronManItem.Helmet());
+	public static final Item IRON_MAN_CHESTPLATE = register(new IronManItem.Chestplate());
+	public static final Item IRON_MAN_LEGGINGS = register(new IronManItem.Leggings());
+	public static final Item IRON_MAN_BOOTS = register(new IronManItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
