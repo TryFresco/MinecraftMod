@@ -67,7 +67,7 @@ public abstract class CaptainAmericaItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/captain_murica_layer_1.png";
+			return "test_:textures/models/armor/captainamerica__layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class CaptainAmericaItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/captain_murica_layer_1.png";
+			return "test_:textures/models/armor/captainamerica__layer_1.png";
 		}
 	}
 
@@ -91,7 +91,7 @@ public abstract class CaptainAmericaItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/captain_murica_layer_2.png";
+			return "test_:textures/models/armor/captainamerica__layer_2.png";
 		}
 	}
 
@@ -103,7 +103,7 @@ public abstract class CaptainAmericaItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/captain_murica_layer_1.png";
+			return "test_:textures/models/armor/captainamerica__layer_1.png";
 		}
 	}
 }

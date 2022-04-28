@@ -29,6 +29,53 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "CaptainAmerica",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HulkArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hulk_armor_helmet_tick_event",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaptainAmericaProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -37,8 +84,12 @@
     "en_us": {
       "item.test_.scoobysnack": "Scoobysnack",
       "item.test_.black_square": "Black Square",
+      "item.test_.captain_america_boots": "Captain America Boots",
       "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
+      "item.test_.captain_america_helmet": "Captain America Helmet",
+      "item.test_.captain_america_chestplate": "Captain America Body",
       "item.test_.hulk_armor_helmet": "Hulk Armor Helmet",
+      "item.test_.captain_america_leggings": "Captain America Leggings",
       "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
       "item.test_.hulk_armor_boots": "Hulk Armor Boots"
     }

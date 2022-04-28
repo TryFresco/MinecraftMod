@@ -72,7 +72,7 @@ public abstract class HulkArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/hulk_test_layer_1.png";
+			return "test_:textures/models/armor/hulk__layer_1.png";
 		}
 
 		@Override
@@ -89,7 +89,7 @@ public abstract class HulkArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/hulk_test_layer_1.png";
+			return "test_:textures/models/armor/hulk__layer_1.png";
 		}
 	}
 
@@ -101,7 +101,7 @@ public abstract class HulkArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/hulk_test_layer_2.png";
+			return "test_:textures/models/armor/hulk__layer_2.png";
 		}
 	}
 
@@ -113,7 +113,7 @@ public abstract class HulkArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "test_:textures/models/armor/hulk_test_layer_1.png";
+			return "test_:textures/models/armor/hulk__layer_1.png";
 		}
 	}
 }
