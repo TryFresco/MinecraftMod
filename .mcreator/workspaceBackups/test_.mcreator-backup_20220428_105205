@@ -1,22 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "BlackSquare",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "black_square"
-    },
-    {
-      "name": "Scoobysnacl",
-      "type": "food",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scoobysnack"
-    },
-    {
       "name": "HulkArmor",
       "type": "armor",
       "sortid": 2,
@@ -76,22 +60,55 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronMan",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "IronManBootsTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_boots_tick_event",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test_.scoobysnack": "Scoobysnack",
-      "item.test_.black_square": "Black Square",
+      "item.test_.iron_man_leggings": "Iron Man Leggings",
       "item.test_.captain_america_boots": "Captain America Boots",
-      "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
       "item.test_.captain_america_helmet": "Captain America Helmet",
+      "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
+      "item.test_.hulk_armor_boots": "Hulk Armor Boots",
+      "item.test_.iron_man_helmet": "Iron Man Helmet",
+      "item.test_.iron_man_boots": "Iron Man Boots",
+      "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
       "item.test_.captain_america_chestplate": "Captain America Body",
       "item.test_.hulk_armor_helmet": "Hulk Armor Helmet",
       "item.test_.captain_america_leggings": "Captain America Leggings",
-      "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
-      "item.test_.hulk_armor_boots": "Hulk Armor Boots"
+      "item.test_.iron_man_chestplate": "Iron Man Body"
     }
   },
   "foldersRoot": {

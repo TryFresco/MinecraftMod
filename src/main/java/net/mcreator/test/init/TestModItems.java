@@ -10,11 +10,9 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.test.item.ScoobysnaclItem;
 import net.mcreator.test.item.IronManItem;
 import net.mcreator.test.item.HulkArmorItem;
 import net.mcreator.test.item.CaptainAmericaItem;
-import net.mcreator.test.item.BlackSquareItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -22,8 +20,6 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TestModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item BLACK_SQUARE = register(new BlackSquareItem());
-	public static final Item SCOOBYSNACK = register(new ScoobysnaclItem());
 	public static final Item HULK_ARMOR_HELMET = register(new HulkArmorItem.Helmet());
 	public static final Item HULK_ARMOR_CHESTPLATE = register(new HulkArmorItem.Chestplate());
 	public static final Item HULK_ARMOR_LEGGINGS = register(new HulkArmorItem.Leggings());

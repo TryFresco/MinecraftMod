@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "captainamerica_head",
+    "textureHelmet": "captain_america_helmet_icon",
     "enableBody": true,
-    "textureBody": "captainamerica_body",
+    "textureBody": "captain_america_chestplate_icon",
     "enableLeggings": true,
-    "textureLeggings": "captainamerica_legs",
+    "textureLeggings": "captain_america_leggings_icon",
     "enableBoots": true,
-    "textureBoots": "captainamerica_boots",
+    "textureBoots": "captain_america_boots_icon",
     "creativeTab": {
       "value": "COMBAT"
     },

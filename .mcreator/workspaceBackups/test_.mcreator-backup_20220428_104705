@@ -90,6 +90,23 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "IronManBootsTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_boots_tick_event",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
