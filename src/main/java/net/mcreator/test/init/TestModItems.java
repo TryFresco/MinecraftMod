@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.test.item.ScoobysnaclItem;
 import net.mcreator.test.item.HulkArmorItem;
+import net.mcreator.test.item.CaptainAmericaItem;
 import net.mcreator.test.item.BlackSquareItem;
 
 import java.util.List;
@@ -26,6 +27,10 @@ public class TestModItems {
 	public static final Item HULK_ARMOR_CHESTPLATE = register(new HulkArmorItem.Chestplate());
 	public static final Item HULK_ARMOR_LEGGINGS = register(new HulkArmorItem.Leggings());
 	public static final Item HULK_ARMOR_BOOTS = register(new HulkArmorItem.Boots());
+	public static final Item CAPTAIN_AMERICA_HELMET = register(new CaptainAmericaItem.Helmet());
+	public static final Item CAPTAIN_AMERICA_CHESTPLATE = register(new CaptainAmericaItem.Chestplate());
+	public static final Item CAPTAIN_AMERICA_LEGGINGS = register(new CaptainAmericaItem.Leggings());
+	public static final Item CAPTAIN_AMERICA_BOOTS = register(new CaptainAmericaItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

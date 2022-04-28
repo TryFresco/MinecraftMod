@@ -10,6 +10,9 @@
     "textureLeggings": "hulk_legs",
     "enableBoots": true,
     "textureBoots": "hulk_feet",
+    "onHelmetTick": {
+      "name": "HulkArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
