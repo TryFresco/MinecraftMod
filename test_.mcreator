@@ -123,6 +123,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_man_boots"
+    },
+    {
+      "name": "CaptainAmericaBoots",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_boots"
+    },
+    {
+      "name": "CaptainAmericaLeggins",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_leggins"
+    },
+    {
+      "name": "CaptainAmericaChestplate",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_chestplate"
+    },
+    {
+      "name": "CaptainAmericaHelmet",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_helmet"
     }
   ],
   "variable_elements": [],

@@ -10,6 +10,9 @@
     "textureLeggings": "captain_america_leggings_icon",
     "enableBoots": true,
     "textureBoots": "captain_america_boots_icon",
+    "onBootsTick": {
+      "name": "CaptainAmericaProcedure"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
