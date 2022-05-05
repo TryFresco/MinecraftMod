@@ -1,22 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "BlackSquare",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "black_square"
-    },
-    {
-      "name": "Scoobysnacl",
-      "type": "food",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scoobysnack"
-    },
-    {
       "name": "HulkArmor",
       "type": "armor",
       "sortid": 2,
@@ -107,19 +91,97 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronManHelmet",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_helmet"
+    },
+    {
+      "name": "IronManChestplate",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_chestplate"
+    },
+    {
+      "name": "IronManLeggins",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_leggins"
+    },
+    {
+      "name": "IronManBoots",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_boots"
+    },
+    {
+      "name": "CaptainAmericaBoots",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_boots"
+    },
+    {
+      "name": "CaptainAmericaLeggins",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_leggins"
+    },
+    {
+      "name": "CaptainAmericaChestplate",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_chestplate"
+    },
+    {
+      "name": "CaptainAmericaHelmet",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain_america_helmet"
+    },
+    {
+      "name": "HulkBoots",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hulk_boots"
+    },
+    {
+      "name": "HulkLeggins",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hulk_leggins"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test_.black_square": "Black Square",
       "item.test_.iron_man_leggings": "Iron Man Leggings",
       "item.test_.captain_america_boots": "Captain America Boots",
       "item.test_.captain_america_helmet": "Captain America Helmet",
       "item.test_.hulk_armor_chestplate": "Hulk Armor Body",
       "item.test_.hulk_armor_boots": "Hulk Armor Boots",
-      "item.test_.scoobysnack": "Scoobysnack",
       "item.test_.iron_man_helmet": "Iron Man Helmet",
       "item.test_.iron_man_boots": "Iron Man Boots",
       "item.test_.hulk_armor_leggings": "Hulk Armor Leggings",
